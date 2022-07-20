@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url('https://images6.alphacoders.com/785/785636.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    font-weight: 700;
+    font-family: 'SF Pro Text';
+    font-size: 72px;
+    -webkit-text-stroke: 1px pink;
+    color: purple;
+}
